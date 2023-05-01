@@ -1,0 +1,26 @@
+<div style='padding:15px; border:1px solid black;'>
+  <h3>New reservation message from {{firstName}}</h3>
+  <hr/>
+  <p><strong>First Name:</strong> {{firstName}}</p>
+  <p><strong>Last Name:</strong> {{lastName}}</p>
+  <p><strong>Subject:</strong> {{subject}}</p>
+  <p><strong>Email:</strong> {{email}}</p>
+  <p><strong>Phone Number:</strong> {{phoneNumber}}</p>
+  <p><strong>State:</strong> {{state}}</p>
+  <p><strong>Address 1:</strong> {{address1}}</p>
+  {{#if address2}}
+  <p><strong>Address 2:</strong> {{address2}}</p>
+  {{/if}}
+  <p><strong>City:</strong> {{city}}</p>
+  <p><strong>Postal Number:</strong> {{postalNumber}}</p>
+  <p><strong>Message:</strong> {{message}}</p>
+  {{#if eventDate}}
+    <p><strong>Event Date:</strong> {{eventDate}}</p>
+  {{/if}}
+  {{#if guestCount}}
+  <p><strong>Guest Count:</strong> {{guestCount}}</p>
+  {{/if}}
+  <p><strong>How did you hear about us:</strong> {{howDidYouHearAboutUs}}</p>
+  <hr/>
+  <h4>Mannya Bar Services</h4>
+</div>
