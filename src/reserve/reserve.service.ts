@@ -8,7 +8,7 @@ export class ReserveService {
   reserve(reserveDto: ReserveDto) {
     this.mailerService.sendMail({
       from: 'Mannya Bar Services',
-      to: ['mujavaldrin@gmail.com'],
+      to: ['rinaloshaj@mannyabarservices.com'],
       subject: 'New Reservation for Mannya Bar Services',
       template: 'reserve',
       context: {
