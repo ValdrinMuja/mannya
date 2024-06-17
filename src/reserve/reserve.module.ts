@@ -13,7 +13,7 @@ import { join } from 'path';
           host: 'smtp.gmail.com',
           auth: {
             user: 'rinaloshaj@mannyabarservices.com',
-            pass: 'nkkvumbwvhjmhlca',
+            pass: 'Niki@partini9844',
           },
         },
         defaults: {
